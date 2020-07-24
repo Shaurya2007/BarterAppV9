@@ -18,6 +18,7 @@ export default class CustomSideBarMenu extends Component{
    
     render(){
         return(
+            <View>
             <View style={{flex:1}}>
              <View style={{flex:5,alignItems:'center',background:'orange'}}>
              <Avatar
@@ -48,6 +49,7 @@ export default class CustomSideBarMenu extends Component{
              </View>
              </View>
              </View>
+</View>
         )
     }
 }
